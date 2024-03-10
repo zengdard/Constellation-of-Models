@@ -1,3 +1,3 @@
 # Constellation-of-Models
 
-[Image]https://cdn-uploads.huggingface.co/production/uploads/63ca8f782ffd350b48631ca9/9dfxj7kE4eSYSZMcAEYFr.png
+![image](https://github.com/zengdard/Constellation-of-Models/assets/61885397/1a9c3438-04ef-4f24-b6b7-a37f892f1f0b)
