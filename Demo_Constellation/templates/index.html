@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <h1>Constellation Of Models</h1>
+    <h1>Chosen model: <strong>{{ chosen_model }}</strong></h1>
+
+    <form action="/send" method="post">
+        <input type="text" name="user_input" required>
+        <input type="submit" value="Send">
+    </form>
+    {% if response %}
+        <div class="response-container">
+            <p>Input/Ouput :<strong> {{ response }}</strong></p>
+            {% if 'Image' in  chosen_model %}
+            <img src="static/output.png" type="image/png" />
+            {% endif %}
+        <p>Model Use : procit001/nepali_male_v1 - runwayml/stable-diffusion-v1-5 - Phi2 </p>
+        <p>Thanks HuggingFace API</p>
+        <img src="static/Presentation.png" alt="Description de l'image" height="400px">
+
+        </div>
+    {% endif %}
+
+</body>
+</html>
