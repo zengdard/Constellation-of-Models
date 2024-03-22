@@ -36,9 +36,8 @@ Installation and Usage
 
 To install and use the demo model, follow these steps:
 
-1. Clone the repository to your local machine.
-2. Install the required packages using the provided `requirements.txt` file.
-3. Run the demo script to test the model and explore its functionality.
+1. Clone the repository to your local machine and install dependencies.
+2. Run the demo script to test the model and explore its functionality.
 
 For detailed instructions, please refer to the [Installation and Usage Guide](INSTALLATION.md).
 
